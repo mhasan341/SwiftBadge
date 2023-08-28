@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "SwiftBadge",
             dependencies: []),
-        .testTarget(
-            name: "SwiftBadgeTests",
-            dependencies: ["SwiftBadge"]),
     ]
 )
